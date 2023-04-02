@@ -1,0 +1,21 @@
+// arquivos importados no sass são compilados juntos para um único css, sem requisições http
+@use './reset';
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        padding: 6px 12px;
+        background-color: #CCC;
+    }
+}

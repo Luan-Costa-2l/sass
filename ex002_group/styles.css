@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: lightgreen;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  padding: 6px 12px;
+  background-color: #CCC;
+}
+
+/*# sourceMappingURL=styles.css.map */
