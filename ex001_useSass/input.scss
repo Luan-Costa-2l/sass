@@ -1,0 +1,21 @@
+// sass input.scss output.css : create an css file with the styles.
+// sass --watch input.scss output : watch for changes and re-compile.
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #F00;
+
+body {
+    font-family: $font-stack;
+    color: $primary-color;
+    font-size: 20px;
+
+    h1 {
+        background-color: #0F0;
+    }
+
+    p {
+        color: #00F;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
