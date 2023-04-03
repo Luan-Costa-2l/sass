@@ -1,0 +1,42 @@
+.info {
+  background-color: DarkGray;
+  box-shadow: 0 0 2px rgba(169, 169, 169, 0.25);
+  color: #FFF;
+  padding: 7px;
+}
+
+.alert {
+  background-color: DarkRed;
+  box-shadow: 0 0 2px rgba(139, 0, 0, 0.25);
+  color: #FFF;
+  padding: 7px;
+}
+
+.success {
+  background-color: DarkGreen;
+  box-shadow: 0 0 2px rgba(0, 100, 0, 0.25);
+  color: #FFF;
+  padding: 7px;
+}
+
+.bye {
+  background-color: rgb(112, 196, 224);
+  box-shadow: 0 0 2px rgba(112, 196, 224, 0.25);
+  color: #FFF;
+  padding: 7px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  box-shadow: 0 0 2px rgba(0, 0, 255, 0.25);
+  color: #FFF;
+  padding: 7px;
+  transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+}
+
+/*# sourceMappingURL=styles.css.map */
