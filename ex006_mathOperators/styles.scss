@@ -1,0 +1,45 @@
+@use "sass:math";
+
+.container {
+    display: flex;
+}
+
+article {
+    width: math.div(600px, 960px) * 100%;
+    background-color: lightblue;
+}
+
+aside {
+    width: math.div(300px, 960px) * 100%;
+    margin-left: auto;
+    background-color: lightgreen;
+}
+
+
+
+.box {
+    margin-top: 30px;
+}
+
+%item {
+    height: 20px;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+
+$item-width: 250px;
+
+.box--item1 {
+    @extend %item;
+    width: $item-width;
+}
+
+.box--item2 {
+    @extend %item;
+    width: $item-width * 2;
+}
+
+.box--item3 {
+    @extend %item;
+    width:  $item-width / 2;
+}
