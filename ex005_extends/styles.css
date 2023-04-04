@@ -1,0 +1,19 @@
+.warning, .error, .success, .message {
+  border: 4px solid #CCC;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+/*# sourceMappingURL=styles.css.map */
