@@ -1,0 +1,104 @@
+@use "sass:math";
+
+// use conditionals in sass
+@mixin avatar ($size, $circle: false, $bg-color) {
+    width: $size;
+    height: $size;
+    margin-bottom: $size / 2;
+    background-color: $bg-color;
+    box-shadow: 0 0 5px $bg-color;
+
+    @if $circle {
+        border-radius: $size;
+    } @else {
+        background-image: url('https://th.bing.com/th/id/OIP.7qu1CT-Rdd41_MjtGyNcSgHaHa?pid=ImgDet&rs=1');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid #000;
+    }
+}
+
+.square-av {
+    @include avatar(100px, false, green);
+}
+
+.circle-av {
+    @include avatar(100px, true, blue);
+}
+
+// exemple 2
+
+$light-bg: #f2ece4;
+$light-text: #036;
+$dark-bg: #6b717f;
+$dark-text: #d2e1dd;
+
+@mixin theme-colors($light-theme: true) {
+    @if $light-theme {
+        background-color: $light-bg;
+        color: $light-text;
+    } @else {
+        background-color: $dark-bg;
+        color: $dark-text;
+    }
+}
+
+%format {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+}
+
+.banner {
+    @include theme-colors(true);
+    @extend %format;
+}
+.dark {
+    @include theme-colors(false);
+    @extend %format;
+}
+
+
+// exemple 3
+
+@mixin triangle($size, $color, $direction) {
+    height: 0;
+    width: 0;
+    margin-right: 5px;
+
+    border-color: transparent;
+    border-style: solid;
+    border-width: math.div($size, 2);
+
+    @if $direction == up {
+        border-bottom-color: $color;
+    } @else if $direction == right {
+        border-left-color: $color;
+    } @else if $direction == bottom {
+        border-top-color: $color;
+    } @else if $direction == left{
+        border-right-color: $color;
+    } @else {
+        @error "Unknown direction #{$direction}.";
+    }
+}
+
+.exemple3 {
+    display: flex
+}
+
+.next {
+    @include triangle(34px, black, up);
+}
+
+.next2 {
+    @include triangle(34px, black, bottom)
+}
+
+.next3 {
+    @include triangle(34px, blue, right);
+}
+
+.next4 {
+    @include triangle(34px, red, left);
+}

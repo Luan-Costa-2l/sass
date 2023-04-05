@@ -1,0 +1,82 @@
+.square-av {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  background-color: green;
+  box-shadow: 0 0 5px green;
+  background-image: url("https://th.bing.com/th/id/OIP.7qu1CT-Rdd41_MjtGyNcSgHaHa?pid=ImgDet&rs=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #000;
+}
+
+.circle-av {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  background-color: blue;
+  box-shadow: 0 0 5px blue;
+  border-radius: 100px;
+}
+
+.dark, .banner {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+}
+
+.banner {
+  background-color: #f2ece4;
+  color: #036;
+}
+
+.dark {
+  background-color: #6b717f;
+  color: #d2e1dd;
+}
+
+.exemple3 {
+  display: flex;
+}
+
+.next {
+  height: 0;
+  width: 0;
+  margin-right: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 17px;
+  border-bottom-color: black;
+}
+
+.next2 {
+  height: 0;
+  width: 0;
+  margin-right: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 17px;
+  border-top-color: black;
+}
+
+.next3 {
+  height: 0;
+  width: 0;
+  margin-right: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 17px;
+  border-left-color: blue;
+}
+
+.next4 {
+  height: 0;
+  width: 0;
+  margin-right: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 17px;
+  border-right-color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */
