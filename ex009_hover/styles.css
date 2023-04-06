@@ -1,0 +1,78 @@
+.item-10, .item-9, .item-8, .item-7, .item-6, .item-5, .item-4, .item-3, .item-2, .item-1 {
+  font-size: 14px;
+  border: 1px solid #999;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.item-1 {
+  background-color: lightgreen;
+}
+.item-1:hover {
+  background-color: rgb(114, 208, 114);
+}
+
+.item-2 {
+  background-color: green;
+}
+.item-2:hover {
+  background-color: rgba(0, 128, 0, 0.9);
+}
+
+.item-3 {
+  background-color: lightgreen;
+}
+.item-3:hover {
+  background-color: rgb(114, 208, 114);
+}
+
+.item-4 {
+  background-color: green;
+}
+.item-4:hover {
+  background-color: rgba(0, 128, 0, 0.9);
+}
+
+.item-5 {
+  background-color: lightgreen;
+}
+.item-5:hover {
+  background-color: rgb(114, 208, 114);
+}
+
+.item-6 {
+  background-color: green;
+}
+.item-6:hover {
+  background-color: rgba(0, 128, 0, 0.9);
+}
+
+.item-7 {
+  background-color: lightgreen;
+}
+.item-7:hover {
+  background-color: rgb(114, 208, 114);
+}
+
+.item-8 {
+  background-color: green;
+}
+.item-8:hover {
+  background-color: rgba(0, 128, 0, 0.9);
+}
+
+.item-9 {
+  background-color: lightgreen;
+}
+.item-9:hover {
+  background-color: rgb(114, 208, 114);
+}
+
+.item-10 {
+  background-color: green;
+}
+.item-10:hover {
+  background-color: rgba(0, 128, 0, 0.9);
+}
+
+/*# sourceMappingURL=styles.css.map */
