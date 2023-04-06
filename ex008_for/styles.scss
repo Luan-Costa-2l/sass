@@ -1,0 +1,38 @@
+$base-bgColor: #036;
+$base-color: lightgreen;
+
+// if to is used, the final number is exclued; if through is used, it's inclued.
+@for $i from 1 through 8 {
+    .first li:nth-child(#{$i}) {
+        background-color: lighten($base-bgColor, $i * 5%);
+        color: darken($base-color, $i * 3%);
+    }
+}
+
+
+%default-item {
+    font-size: 14px;
+    border: 1px solid #999;
+    padding: 5px;
+}
+
+%green-item {
+    background-color: green;
+}
+
+%lightGreen-item {
+    background: $base-color;
+}
+
+@for $i from 1 to 11 {
+
+    .item-#{$i} {
+        @extend %default-item;
+
+        @if $i % 2 == 0 {
+            @extend %green-item;
+        } @else {
+            @extend %lightGreen-item;
+        }
+    }
+}

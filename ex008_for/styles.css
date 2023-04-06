@@ -1,0 +1,55 @@
+.first li:nth-child(1) {
+  background-color: #004080;
+  color: #83ec83;
+}
+
+.first li:nth-child(2) {
+  background-color: #004d99;
+  color: #75ea75;
+}
+
+.first li:nth-child(3) {
+  background-color: #0059b3;
+  color: #68e868;
+}
+
+.first li:nth-child(4) {
+  background-color: #0066cc;
+  color: #5be65b;
+}
+
+.first li:nth-child(5) {
+  background-color: #0073e6;
+  color: #4ee44e;
+}
+
+.first li:nth-child(6) {
+  background-color: #0080ff;
+  color: #40e240;
+}
+
+.first li:nth-child(7) {
+  background-color: #1a8cff;
+  color: #33e033;
+}
+
+.first li:nth-child(8) {
+  background-color: #3399ff;
+  color: #26de26;
+}
+
+.item-10, .item-9, .item-8, .item-7, .item-6, .item-5, .item-4, .item-3, .item-2, .item-1 {
+  font-size: 14px;
+  border: 1px solid #999;
+  padding: 5px;
+}
+
+.item-10, .item-8, .item-6, .item-4, .item-2 {
+  background-color: green;
+}
+
+.item-9, .item-7, .item-5, .item-3, .item-1 {
+  background: lightgreen;
+}
+
+/*# sourceMappingURL=styles.css.map */
