@@ -1,0 +1,1 @@
+document.querySelector("button").addEventListener("click",(function(){document.getElementById("result").innerHTML="3 + 4 = 7"}));
